@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тоҷикистон - Сарзамини Хуршед</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; background: #f0f2f5; color: #333; }
+        
+        /* Хатти болоии парчам */
+        .top-bar { height: 8px; display: flex; }
+        .red { background: #da291c; flex: 1; }
+        .white { background: #ffffff; flex: 1; }
+        .green { background: #009739; flex: 1; }
+
+        /* Қисми тарҷумон */
+        #google_translate_element { text-align: right; padding: 10px; background: #fff; }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1527351651532-622837f48e9c?q=80&w=1200&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        }
+
+        .container { max-width: 1100px; margin: -50px auto 40px; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        
+        .symbols { display: flex; justify-content: space-around; flex-wrap: wrap; margin-bottom: 40px; text-align: center; }
+        .symbols div { flex: 1; min-width: 250px; padding: 15px; }
+        .symbols img { width: 150px; height: auto; transition: 0.3s; }
+        .symbols img:hover { transform: scale(1.1); }
+
+        .content-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: center; margin-bottom: 40px; }
+        .content-grid img { width: 100%; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+
+        h2 { color: #2c3e50; border-left: 5px solid #da291c; padding-left: 15px; }
+        p { line-height: 1.8; font-size: 1.1rem; }
+
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 50px; }
+        
+        @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<div class="top-bar"><div class="red"></div><div class="white"></div><div class="green"></div></div>
+<div id="google_translate_element"></div>
+
+<header>
+    <h1>ҶУМҲУРИИ ТОҶИКИСТОН</h1>
+    <p>Кишвари кӯҳҳои осмонбӯс ва мардуми меҳмоннавоз</p>
+</header>
+
+<div class="container">
+    
+    <div class="symbols">
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Tajikistan.svg" alt="Парчами Тоҷикистон">
+            <h3>Парчами Миллӣ</h3>
+        </div>
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Emblem_of_Tajikistan.svg" alt="Нишони Тоҷикистон">
+            <h3>Нишони Давлатӣ</h3>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="section">
+        <h2>Шоҳ Исмоили Сомонӣ</h2>
+        <div class="content-grid">
+            <div class="text">
+                <p>
+                    **Исмоили Сомонӣ** — асосгузори нахустин давлати мутамаркизи тоҷикон (давлати Сомониён) мебошад. Ӯ дар таърихи миллати мо ҷои махсус дорад. 
+                    Ҳайкали ӯ дар маркази пойтахт — шаҳри Душанбе ҷойгир буда, рамзи ваҳдат ва соҳибихтиёрии тоҷикон аст.
+                </p>
+                <p>Қуллаи баландтарини кишвар (7495 м) низ ба номи ӯ гузошта шудааст.</p>
+            </div>
+            <div class="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Statue_of_Ismail_Samani_in_Dushanbe.jpg/800px-Statue_of_Ismail_Samani_in_Dushanbe.jpg" alt="Ҳайкали Исмоили Сомонӣ">
+                <p style="font-size: 0.9rem; text-align: center; color: #666;">Ҳайкали Исмоили Сомонӣ дар Душанбе</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Табиати Тоҷикистон</h2>
+        <div class="content-grid">
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1565103394170-fc9622340578?q=80&w=800&auto=format" alt="Кӯҳҳои Тоҷикистон">
+            </div>
+            <div class="text">
+                <p>
+                    Тоҷикистон бо захираҳои бузурги обии худ, аз ҷумла пиряхҳо ва кӯлҳои зебо мисли **Искандаркӯл** ва **Сарез** машҳур аст. 
+                    Дар ин ҷо зиёда аз 900 дарё ҷорӣ мешаванд.
+                </p>
+                <ul>
+                    <li><strong>Пойтахт:</strong> Душанбе</li>
+                    <li><strong>Забон:</strong> Тоҷикӣ</li>
+                    <li><strong>Асъор:</strong> Сомонӣ</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 — Бахшида ба Ҷумҳурии Тоҷикистон</p>
+</footer>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'tg',
+    includedLanguages: 'en,ru,uz,zh-CN,ar,de,fr,tr',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>
